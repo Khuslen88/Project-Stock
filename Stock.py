@@ -12,7 +12,7 @@ import requests
 # Sidebar: Stock Selection
 st.sidebar.title("Stock Analyzer")
 st.sidebar.header("Stock Selection")
-option = st.sidebar.text_input('Enter a Stock Symbol', value='')
+option = st.sidebar.text_input('Enter a Stock Symbol', value='AAPL')
 start_date = st.sidebar.date_input("Start Date", value=date.today() - timedelta(days=365), key="start_date")
 end_date = st.sidebar.date_input("End Date", value=date.today(), key="end_date")
 
