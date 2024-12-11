@@ -1,0 +1,14 @@
+
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+mplfinance
+plotly
+dash
+yfinance
+dash-core-components
+dash-html-components
+dash-bootstrap-components
+pyngrok
